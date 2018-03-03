@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>View</title>
+
+	<script src="/static/js/rest.js"></script>
+	<script src="/static/js/underscore.min.js"></script>
+	<script src="/static/js/dom.js"></script>
+	<script>
+requestREST("OPTIONS", "http://localhost:8000/teacher/", {}, function(request){
+	printout(request.responseText);
+});
+
+function printout(data){
+	DOM("main").text(data);
+}
+	</script>
+
+</head>
+
+<body>
+<main id="main"></main>
+</body>
+</html>

@@ -1,0 +1,39 @@
+table, tr, td, thead, tbody, tfoot {
+border-collapse: collapse;
+border: black solid 1px;
+cursor:default;
+}
+
+.td_delete, .td_add, .td_pad, .td_add_delete {
+width: 30px;
+}  
+
+.td_delete, .td_add, .td_add_delete {
+text-align:center;
+}
+
+.td_delete:hover, .td_add_delete:hover {
+background: #f04040;
+}
+
+.td_add:hover {
+background: #08b008;
+}
+
+.td_input {
+cursor: text;
+}
+
+.td_input:hover {
+background: #d0d0d0;
+}
+
+td {
+padding: 5px;
+}
+
+table {
+width: 100%;
+table-layout: fixed;
+}
+

@@ -1,0 +1,10 @@
+@keyframes ani1 {
+    from {
+		padding: 0 5px;
+		font-size: 0;
+	}
+    to {
+		padding: 5px 5px;
+		font-size: 100%;
+	}
+}
